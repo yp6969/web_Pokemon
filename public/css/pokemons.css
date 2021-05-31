@@ -1,0 +1,70 @@
+body {
+  background-color: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+h1{
+  color: blue;
+}
+
+#pok_header{
+  width: 150px;
+  height: 50px
+}
+
+.container {
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+}
+
+.img {
+  width: 120px;
+  height: 120px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.inner-container {
+  display: flex;
+  margin: 15px;
+  border: 3px solid black;
+  width: 400px;
+  height: 133px;
+}
+
+.img-container {
+  display: flex;
+  padding: 5px;
+}
+
+.id-and-name-container {
+  display: flex;
+  margin-left: 8px;
+  color: black;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+.types-container {
+  display: flex;
+  margin-left: 8px;
+}
+
+.types-container .type {
+  margin-right: 15px;
+  background-color: #965cb8;
+  border-radius: 7px;
+  padding: 5px 10px;
+  color: black;
+}
+
+#botton {
+  background-color: black;
+  color: white;
+}

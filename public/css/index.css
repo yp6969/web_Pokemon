@@ -1,0 +1,48 @@
+body {
+  background-color: seagreen;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#pok_header{
+  width: 150px;
+  height: 100px
+}
+
+#aling_paragraph {
+  text-align: center;
+  font-size: 25px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.botton {
+  background-color: lightsteelblue ;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border-width: 3px;
+  font-size: 20px;
+}
+
+.name {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.img {
+  width: 70px;
+  height: 70px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
